@@ -143,8 +143,35 @@ function App() {
     }
   }
 
+
+  const [userName, setUserName] = useState("");
+  const [check, setCheck] = useState(false);
+
+  const saveData = () => {
+    const userObj = { name: userName };
+    window.localStorage.setItem("userName", JSON.stringify(userObj));
+  };
+
+  const callData = () => {
+    setCheck(true);
+  };
+
+  const onChange = (e) => {
+    setUserName(e.target.value);
+    setCheck(false);
+  };
+  
   return (
     <Container>
+    <input
+      name="userName"
+      value={userName}
+      onChange={onChange}
+      placeholder="프로젝트 이름 저장불러오기"
+    />
+    <button onClick={saveData}>저장하기</button>
+    <button onClick={callData}> 불러오기</button>
+    {check ? <p>{window.localStorage.getItem("userName")}</p> : <> </>}
     <Input id="id" name="id" placeholder="아이디를 입력해주세요" ref={id} />
     <Input
       id="password"
