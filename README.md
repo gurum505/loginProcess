@@ -1,7 +1,7 @@
-## detail
-> login and signIn  
-> using accessToken to refresh login   
-> using json-server for userDatabase  
+## Detail
+> login and signIn   
+> using accessToken to refresh login automatically     
+> using json-server for userDatabase   
 
 ## app start
 > ```npm start```
