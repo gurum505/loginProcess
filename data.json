@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "리덕스 미들웨어를 배워봅시다",
+      "body": "리덕스 미들웨어를 직접 만들어보면 이해하기 쉽죠."
+    },
+    {
+      "id": 2,
+      "title": "redux-thunk를 사용해봅시다",
+      "body": "redux-thunk를 사용해서 비동기 작업을 처리해봅시다!"
+    },
+    {
+      "id": 3,
+      "title": "redux-saga도 사용해봅시다",
+      "body": "나중엔 redux-saga를 사용해서 비동기 작업을 처리하는 방법도 배워볼 거예요."
+    }
+  ],
+  "users": [
+    {
+      "id": "react_hoon",
+      "password": "1234"
+    },
+    {
+      "id": "abc",
+      "password": "123"
+    },
+    {
+      "id": "abcd",
+      "password": "1234"
+    },
+    {
+      "id": "adfs",
+      "password": "asdf"
+    }
+  ],
+  "refresh-users": [
+    {
+      "id": "react_hoon",
+      "password": "1234"
+    },
+    {
+      "id": "abc",
+      "password": "123"
+    },
+    {
+      "id": "FtPmjrJ"
+    },
+    {
+      "id": "bSrKa4f"
+    },
+    {
+      "id": "xQvZ9v9"
+    },
+    {
+      "id": "7Yn4eaH"
+    },
+    {
+      "id": "51rANgD"
+    },
+    {
+      "id": "MUwgyHv"
+    },
+    {
+      "id": "CLWc6Hx"
+    },
+    {
+      "id": "e0cV9Az"
+    },
+    {
+      "id": "0XPNKmQ"
+    },
+    {
+      "id": "gLWhr7S"
+    },
+    {
+      "id": "C0RBa01"
+    },
+    {
+      "id": "Y5SY-_p"
+    },
+    {
+      "id": "I4oFJoM"
+    }
+  ]
+}
